@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  background-color: cornflowerblue;
+  justify-content: space-around;
+  height: 800px;
+}
+.seat {
+  width: 50px;
+  height: 50px;
+  background-color: azure;
+  margin: 10px;
+}
+
+/* classes added by js */
+
+.occupied {
+  background-color: pink;
+}
+.booked {
+  background-color: darkgreen;
+}
